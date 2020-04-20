@@ -49,7 +49,6 @@ public class Kplayer : MonoBehaviour
             }
             animator.SetTrigger("walk");
 
-            //检测
             collider.enabled = false;
             RaycastHit2D hit = Physics2D.Linecast(targetpos, targetpos + new Vector2(h,v));
             collider.enabled = true;

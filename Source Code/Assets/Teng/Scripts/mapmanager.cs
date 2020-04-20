@@ -219,33 +219,11 @@ public class mapmanager : MonoBehaviour
         initial(18,2);
         initial(18,13);
        
-
-        /*
-        if(floorArray == null)
-        {
-
-        }
-        */
-
-        // create barrier
-        //int wallCount  = Random.Range(minCountWall,maxCountWall +1);
-        //InstantiateItems(wallCount,wallArray);
-
-        //create food 2- level*2
         InstantiateItems(4,Diamond);
-
-        //create enemy level/2
-        //int enemyCount = setManager.level/2;
-        //InstantiateItems(enemyCount,enemyArray);
 
         //create exit
         GameObject go4 = Instantiate(exitPrefab,new Vector2(cols-2,rows-2),Quaternion.identity)as GameObject;
         go4.transform.SetParent(mapHolder);
-
-        //create key
-        //GameObject go4 = Instantiate(exitPrefab,new Vector2(cols-2,rows-2),Quaternion.identity)as GameObject;
-       // go4.transform.SetParent(mapHolder);
-
     }
     private void InstantiateItems(int count,GameObject[]prefabs)
     {

@@ -13,22 +13,22 @@ public class PlayerMovement : MonoBehaviour
 
     float xVelocity;
 
-    [Header("跳跃参数")]
+    [Header("jump")]
     public float jumpForce = 20f;
 
-    [Header("状态")]
+    [Header("status")]
     public bool isOnGround;
     public bool isJump;
     public bool isheadblock;
 
-    [Header("环境监测")]
+    [Header("environment")]
     public float feetOffset = 0.45f;
     public float headClearance = 0.2f;
     public float groundDistance = 0.2f;
 
     public LayerMask groundLayer;
 
-    //按键设置
+
     bool jumpPressed;
 
     // Start is called before the first frame update

@@ -11,20 +11,13 @@ public class setManager : MonoBehaviour
 
         }
     }
-    //public int level = 2;
+    
     public int Diamond = 0;
     // Start is called before the first frame update
     void Awake()
     {
         _instance = this;
     }
-
-    /*
-    public void ReduceFood(int count)
-    {
-        food -= count;
-    }
-    */
 
     public void AddDiamond(int count)
     {

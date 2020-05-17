@@ -3,9 +3,13 @@
 Team member information
 
 Name: Zijing Mu              ID:  D17129502
+
 Name: Yuanpei Teng       ID:  D18124423
-Name: Jiyuan Liu             ID:  D17129141 
+
+Name: Jiyuan Liu             ID:  D17129141
+
 Name: Xinyang Shao       ID:  D18125179
+
 Name: Hanyue Shi           ID: D16129141
 
 

@@ -15,6 +15,7 @@ Name: Hanyue Shi           ID: D16129141
 Contribution for each team member:
 
 Zijing Mu:
+
 	1. I was responsible for the main map part which is used to linked to other levels of maze. 
 	   Then created prefab folder and put all related objects into the prefab folder. 
 	   Then I added collisions and rigid body to character and tile map, create a camera sprite to follow the character.
